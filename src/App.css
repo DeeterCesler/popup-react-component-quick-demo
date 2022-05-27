@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.popup {
+  position: absolute;
+  border: solid 2px white;
+  color: dimgray;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #e2e2e2;
+  bottom: -200px;
+}
+
+.show {
+  animation: slide-in-and-out 10s 1 ease-in;
+}
+
+@keyframes slide-in-and-out {
+  0% {
+    bottom: -200px;
+  }
+  15% {
+    bottom: 0;
+  }
+  85% {
+    bottom: 0;
+  }
+  100% {
+    bottom: -200px;
+  }
+}
