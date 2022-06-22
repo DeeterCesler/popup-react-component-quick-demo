@@ -65,3 +65,9 @@
     bottom: -200px;
   }
 }
+
+/* method 2 */
+
+.show-two {
+  bottom: 0;
+}
